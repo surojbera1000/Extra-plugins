@@ -12,7 +12,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import ChatJoinRequest
 from pyrogram.errors.exceptions.bad_request_400 import UserAlreadyParticipant
-from YukkiMusic import app
+from DnsXMusic import app
 from YukkiMusic.core.mongo import mongodb
 from YukkiMusic.misc import SUDOERS
 from YukkiMusic.utils.keyboard import ikb
