@@ -17,7 +17,7 @@
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
-`python3 -m YukkiMusic`
+`python3 -m DnsXMusic`
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 
 
