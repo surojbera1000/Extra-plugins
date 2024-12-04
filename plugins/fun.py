@@ -16,7 +16,7 @@ from DnsXMusic import app
 @app.on_message(
     filters.command(
         [
-            "dice",
+            "boob",
             "ludo",
             "dart",
             "basket",
@@ -30,9 +30,9 @@ from DnsXMusic import app
 )
 async def dice(c, m: Message):
     command = m.text.split()[0]
-    if command == "/dice" or command == "/ludo":
+    if command == "/boob" or command == "/boob":
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔄", callback_data="send_dice")]]
+            [[InlineKeyboardButton("🙈", callback_data="send_boob")]]
         )
         value = await c.send_dice(m.chat.id, reply_markup=keyboard)
 
@@ -78,21 +78,21 @@ async def bored_command(client, message):
 async def dice_again(client, query):
     try:
         await app.edit_message_text(
-            query.message.chat.id, query.message.id, query.message.dice.emoji
+            query.message.chat.id, query.message.id, query.message.boob.emoji
         )
     except BaseException:
         pass
     keyboard = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("🔄", callback_data="send_dice")]]
+        [[InlineKeyboardButton("🔄", callback_data="send_boob")]]
     )
     await client.send_dice(query.message.chat.id, reply_markup=keyboard)
 
 
-__MODULE__ = "Fᴜɴ"
+__MODULE__ = "Mᴀsᴛɪ"
 __HELP__ = """
 **ʜᴀᴠɪɴɢ ꜰᴜɴ:**
 
-• `/dice`: Rᴏʟʟs ᴀ ᴅɪᴄᴇ.
+• `/boob`: Yᴏᴜʀ Bᴏᴏʙ Sɪᴢᴇ.
 • `/ludo`: Pʟᴀʏ Lᴜᴅᴏ.
 • `/dart`: Tʜʀᴏᴡs ᴀ ᴅᴀʀᴛ.
 • `/basket` ᴏʀ `/basketball`: Pʟᴀʏs ʙᴀsᴋᴇᴛʙᴀʟʟ.
