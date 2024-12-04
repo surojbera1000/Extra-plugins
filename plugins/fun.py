@@ -56,7 +56,20 @@ async def dice(c, m: Message):
         value = await c.send_dice(m.chat.id, emoji="🎳", reply_to_message_id=m.id)
         await value.reply_text("ʏᴏᴜʀ sᴄᴏʀᴇ ɪs {0}".format(value.dice.value))
 
-
+elif command == "/boob" or command == "boob":
+    keyboard = InlineKeyboardMarkup(
+        [
+            [InlineKeyboardButton("🍒", callback_data="send_boob")]
+        ]
+    )
+    # Replace "path_to_your_video.mp4" with the actual path of the video
+    video_path = "https://t.me/yrfgghshhs/620"
+    await c.send_video(
+        chat_id=m.chat.id,
+        video=video_path,
+        caption="https://t.me/yrfgghshhs/620",
+        reply_markup=keyboard
+        )
 bored_api_url = "https://apis.scrimba.com/bored/api/activity"
 
 
