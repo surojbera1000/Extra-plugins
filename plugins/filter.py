@@ -35,7 +35,7 @@ from DnsXMusic.utils.database import (
 from config import BANNED_USERS
 
 
-__MODULE__ = "Filters"
+__MODULE__ = "๏ ғɪʟᴛᴇʀs ๏"
 __HELP__ = """/filters To Get All The Filters In The Chat.
 /filter [FILTER_NAME] To Save A Filter(reply to a message).
 
