@@ -65,7 +65,7 @@ async def get_id(client, message):
         await message.reply(f"Aɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ ᴡʜɪʟᴇ ɢᴇᴛᴛɪɴɢ ᴛʜᴇ ID. {r}")
 
 
-__MODULE__ = "Usᴇʀɪᴅ"
+__MODULE__ = "๏ ᴜsᴇʀ-ɪᴅ ๏"
 __HELP__ = """
 **ɪᴅ ʀᴇᴛʀɪᴇᴠᴇʀ:**
 
