@@ -236,7 +236,7 @@ async def greet_new_members(_, member: ChatMemberUpdated):
         LOGGER.error(e)
         return
 
-__MODULE__ = "Wᴇᴄᴏᴍᴇ"
+__MODULE__ = "๏ ᴡᴇʟᴄᴏᴍᴇ ๏"
 __HELP__ = """
 ## Aᴜᴛᴏ-Wᴇᴄᴏᴍᴇ Mᴏᴅᴜᴇ Cᴏᴍᴍᴀɴᴅs
 
