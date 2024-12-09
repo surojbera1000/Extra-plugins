@@ -187,7 +187,7 @@ async def chat_info_func(_, message: Message):
         await m.edit(e)
 
 
-__MODULE__ = "Iɴғᴏ"
+__MODULE__ = "๏ ɪɴғᴏ-ʜᴀᴄᴋᴇʀ ๏"
 __HELP__ = """
 **ᴜsᴇʀ & ᴄʜᴀᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ:**
 
