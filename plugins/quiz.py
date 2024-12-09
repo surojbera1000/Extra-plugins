@@ -57,5 +57,5 @@ async def quiz(client, message):
     )
 
 
-__MODULE__ = "Qᴜɪᴢ"
+__MODULE__ = "๏ ϙᴜɪᴢ ๏"
 __HELP__ = " /quiz - ᴛᴏ ɢᴇᴛ ᴀɴ ʀᴀɴᴅᴏᴍ ǫᴜɪᴢ"
