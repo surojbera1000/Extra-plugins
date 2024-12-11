@@ -1,5 +1,5 @@
 import random
-from DNX.utils.database import get_served_chats
+from DnsXMusic.utils.database import get_served_chats
 from pyrogram import Client, filters
 
 from DnsXMusic import app
