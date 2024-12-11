@@ -139,7 +139,7 @@ async def help(client: Client, message: Message):
 
 
 @app.on_message(
-    filters.command("gali", prefixes=["/", "!", "%", ",", "", ".", "@", "#"])
+    filters.command("gali,rendi", prefixes=["/", "!", "%", ",", "", ".", "@", "#"])
     & filters.group
 )
 async def help(client: Client, message: Message):
@@ -148,7 +148,7 @@ async def help(client: Client, message: Message):
     )
 
 
-__MODULE__ = "Gᴀʟɪ"
+__MODULE__ = "๏ ᴛᴏxɪᴄ ɢᴀʟɪ ๏"
 __HELP__ = """
 **𝐆𝐚𝐥𝐢 𝐂𝐨𝐦𝐦𝐚𝐧𝐝**
 
